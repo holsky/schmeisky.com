@@ -92,7 +92,15 @@
     }
 }
 
+.avatar-container {
+    text-align: center;
+}
 
+.avatar-image {
+    border-color: $brand_color;
+    border-width: 2px;
+    border-style: solid;
+}
 
 /**
  * Site footer

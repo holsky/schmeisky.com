@@ -48,7 +48,6 @@ img {
 }
 
 
-
 /**
  * Figures
  */
@@ -150,7 +149,12 @@ pre {
     }
 }
 
-
+/*
+ * Circular Image
+ */
+.img-circle {
+    border-radius: 50%;
+}
 
 /**
  * Wrapper
