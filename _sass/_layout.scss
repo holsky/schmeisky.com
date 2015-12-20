@@ -92,13 +92,19 @@
     }
 }
 
+.home-header {
+    display: flex;
+    align-items: center;
+    padding: 24px 0px;
+}
+
 .avatar-container {
     text-align: center;
 }
 
 .avatar-image {
     border-color: $brand_color;
-    border-width: 2px;
+    border-width: 3px;
     border-style: solid;
 }
 

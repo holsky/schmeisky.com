@@ -4,47 +4,39 @@ layout: default
 
 <div class="home">
 
+  <div class="home-header">
+
     <div class="avatar-container">
       <img class="img-circle avatar-image" src="{{ site.baseurl }}static/{{ site.avatar }}" alt="Holger Schmeisky"/>
-
-      <div id="account-links">
-        <p>
-          
-        Github
-        Twitter
-        StackOverflow
-        LinkedIn
-        Meetup
-        Exercism
-        Sourceforge
-        Trello
-        GoodReads
-
-        </p>
-      </div>
-  
     </div>
+    <p id="account-links">
 
+      <a href="mailto:mail@schmeisky.com" title="E-Mail">
+        <i class="fa fa-envelope"></i>
+      </a>        
+        
 
+      Github
+      Twitter
+      StackOverflow
+      LinkedIn
+      Meetup
+      Exercism
+      Sourceforge
+      Trello
+      GoodReads
+      Agora
 
+    </p>
 
-  I am Holger Schmeisky, software engineer and computer scientist. I am into all things software and especially into how softwares influences people and vice-versa, be it users of software or makers of software.<p/>
-  
-  <div id="posts">
-    <h2> Blog posts </h2>
-    <ul class="post-list">
-      {% for post in site.posts %}
-        <li>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-          {{ post.excerpt }}
-        </li>
-      {% endfor %}
-    </ul>
   </div>
+
+  <div class="introduction">
+  I am Holger Schmeisky, software engineer and computer scientist. I am into all things software and especially into how softwares influences people and vice-versa, be it users of software or makers of software.
+  <p/>
+  <p/>
+  Check out my blog, Saros, my toolbelt or my publications.
+  </div> 
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
