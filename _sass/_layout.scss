@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $brand_color;
+    border-bottom: 1px dashed $brand_color;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -92,14 +92,18 @@
     }
 }
 
+/**
+ * Home layout
+ */
 .home-header {
     display: flex;
     align-items: center;
-    padding: 24px 0px;
+    padding: 12 0px;
 }
 
 .avatar-container {
     text-align: center;
+    padding: 24px;
 }
 
 .avatar-image {
@@ -108,11 +112,15 @@
     border-style: solid;
 }
 
+.account-links {
+    
+}
+
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px dashed $brand_color;
     padding: $spacing-unit 0;
 }
 
