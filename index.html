@@ -9,31 +9,24 @@ layout: default
     <div class="avatar-container">
       <img class="img-circle avatar-image" src="{{ site.baseurl }}static/{{ site.avatar }}" alt="Holger Schmeisky"/>
     </div>
-    <div id="account-links">
+
+    <div class="account-links">
       {% for account in site.accounts %}
-        <a href="{{ account["url"] }}" title="{{ account["name"] }}">
+        <a href="{{ account["url"] }}" title="{{ account["name"] }}" class="account-link">
         {{ account[icon] }}
           <i class="fa 
             {% if account["icon"] %} 
               {{ account["icon"] }} 
             {% else %} 
               fa-at 
-            {% endif %}">{{ account["text"] }}</i>
+            {% endif %}"> {{ account["text"] }}</i>
         </a>
       {% endfor %}
-      <a href="mailto:mail@schmeisky.com" title="E-Mail">
-        <i class="fa fa-envelope">Email</i>
-      </a>        
-
     </div>
-
   </div>
 
   <div class="introduction">
-  Welcome to my website!
-  <p/>
-
-  I am Holger Schmeisky, software engineer and computer scientist. I am into all things software and especially into how softwares influences people and vice-versa, be it users of software or makers of software.
+  I am Holger Schmeisky, software craftsman and computer scientist. I am into all things software and especially into how softwares influences people and vice-versa, be it users of software or makers of software.
   <p/>
   <p/>
   Check out my blog or my toolbelt.
