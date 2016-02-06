@@ -8,7 +8,6 @@
 # Site settings
 title: Holger Schmeisky
 avatar: Holger_Schmeisky.jpg
-email: mail@schmeisky.com
 description: > # this means to ignore newlines until "baseurl:"
   This is a collection of stuff that I do and like in software, coding, research, science and everything else.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -30,4 +29,3 @@ accounts:
   - {name: Trello, url: "https://trello.com/holgerschmeisky", icon: fa-trello}
   - {name: GoodReads, url: "https://www.goodreads.com/user/show/50263005-holger-schmeisky", text: GoodReads}
   - {name: ResearchGate, url: "https://www.researchgate.net/profile/Holger_Schmeisky", text: "ResearchGate"}
-  - {name: Email, url: "mailto:mail@schmeisky.com", icon: fa-envelope}
