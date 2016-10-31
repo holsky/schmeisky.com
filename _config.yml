@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.schmeisky.com" # the base hostname & protocol for your site
 twitter_username: hschmeisky
-github_username:  holger-s
+github_username:  holsky
 
 # Build settings
 markdown: kramdown
@@ -22,10 +22,8 @@ accounts:
   - {name: FreeUniversity, url: "http://www.mi.fu-berlin.de/w/Main/HolgerSchmeisky", text: Freie Universität}
   - {name: GitHub, url: "https://github.com/holger-s", icon: fa-github}
   - {name: Twitter, url: "https://twitter.com/@hschmeisky", icon: fa-twitter}
-  - {name: StackOverflow, url: "https://stackoverflow.com/users/4041729/holger-schmeisky", icon: fa-stack-overflow}
   - {name: LinkedIn, url: "https://de.linkedin.com/in/hschmeisky", icon: fa-linkedin}
   - {name: Meetup, url: "http://www.meetup.com/members/127251772/", text: Meetup}
   - {name: Exercism, url: "http://exercism.io/holsky", text: Exercism}
   - {name: Trello, url: "https://trello.com/holgerschmeisky", icon: fa-trello}
-  - {name: GoodReads, url: "https://www.goodreads.com/user/show/50263005-holger-schmeisky", text: GoodReads}
   - {name: ResearchGate, url: "https://www.researchgate.net/profile/Holger_Schmeisky", text: "ResearchGate"}
