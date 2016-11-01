@@ -133,12 +133,6 @@
     text-decoration: none;
 }
 
-.post {
-    max-width: $post-width;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 /**
  * Site footer
@@ -213,7 +207,6 @@
 /**
  * Page content
  */
-
 .page {
     max-width: $post-width;
     margin-left: auto;
@@ -223,11 +216,9 @@
 .page-content {
     padding: $spacing-unit 0;
 
-    h3 {
-        font-size: 32px;
+    h2 {
+        font-size: 20px;
         font-variant: small-caps;
-        margin-top: 40px;
-        margin-bottom: 20px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -266,6 +257,12 @@
 /**
  * Posts
  */
+.post {
+    max-width: $post-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -284,7 +281,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: 20px;
         font-variant: small-caps;
         margin-top: 40px;
         margin-bottom: 20px;
