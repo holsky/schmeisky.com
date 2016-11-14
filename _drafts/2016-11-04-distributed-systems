@@ -1,0 +1,10 @@
+Episode 253
+Two important points:
+Builsing distributed Systems still means your Maschine dies bot work because some Computer you die Not knownabout failed
+
+Builsing ds is now very easy thanks to Cloud Provisioning. Sometimes it seems as ifnwe let Engineering build distributed Systems simply because it is fashionable and Fun
+However stmt 1 still holds: builsing a ds always means introducing werid errors (Network, doenstream errors...)
+
+If you decide to build a ds think about which the Level of consistency every Level of Data requires. Theb decide what softeare to use (eg Mongo for Data that can be recobstruczed)
+
+Two reasons for building a ds: scalability and fault tolerance. Unfort the two work against each other 
