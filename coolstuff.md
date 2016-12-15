@@ -11,7 +11,7 @@ This is where I put cool stuff I found on the web in case Twitter ever ceases to
 * TOC
 {:toc}
 
-## Build a Container in 20 minutes 
+## Build a Container Engine in 20 minutes 
 
 [This video is](https://www.youtube.com/watch?v=HPuvDm8IC-4) a walkthrough of starting to build a container system in a 20 minute talk, with an explanation of all the concepts involved (namespaces, hostname space/UTS, and a separate filesystem).
 
@@ -31,6 +31,20 @@ This is [an article, by Matthew Butterick](http://practicaltypography.com/why-ra
 
 The reasons are in short: Everything as an expression, everything as a value or list brings high consistency, well-written documentation written mostly by CS professors, IDE ships with language, X-Expressions to represent XML-ish data, Scribble is a powerful templating language, syntax transformations in Racket itself and easy-to-define DSLs.
 
+## Lambda Calculus
+
+Lambda calculus is one of the things I heard of in passing during university, but never got a chance to dive deeper into. In Wikipedia's words it is "... a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. It is a universal model of computation that can be used to simulate any single-taped Turing machine"<span title="https://en.wikipedia.org/wiki/Lambda_calculus"><sup>[<u>1</u>]</sup></span>. In my own words it is programming in mathematics.
+
+I read a little into it using these [Lecture Notes by Peter Selinger](https://www.irif.fr/~mellies/mpri/mpri-ens/biblio/Selinger-Lambda-Calculus-Notes.pdf) and, but later I found this more accessible guide: [Lambda Calculus for absolute dummies](https://palmstroem.blogspot.de/2012/05/lambda-calculus-for-absolute-dummies.html). 
+
+Why is this nice to know? Most functional programming languages (LISP, Erlang, Scala, ...) in some way use Lambda Calculus as the base and add things like side effects and state to become useful programming languages. So, to understand some of the design decisions in these languages it is useful to understand where they come from.
+
+## Software Engineering Radio
+
+[Software Engineering Radio](http://www.se-radio.net/) is a series of podcasts made by a awesome team of volunteers that interview a very broad and interesting range of industry experts on topics around Software Engineering, from very technical ones (like [Consensus in Distributed Systems](http://www.se-radio.net/2015/11/se-radio-episode-241-kyle-kingsbury-on-consensus-in-distributed-systems/)) to social/human ones (like [Recruiting Software Engineers in San Francisco](http://www.se-radio.net/2016/05/se-radio-episode-258-cody-voellinger-on-recruiting-software-engineers/)). I really like how it gives you a broader context in topics you are not very well familiar with and gives an insight into discussions by industry experts.
+
+I have a [blog post](/engineering/2016/11/22/SE-Radio1.html) summarizing some of the learnings.
+
 ## Browser-based Presentations
 
 [reveal.js](http://lab.hakim.se/reveal-js) is a tool/library for browser-based presentations with nice transitions that will work everywhere a webbrowser works. Is not as hard to setup *well* as Prezi or impress.js.
@@ -43,7 +57,7 @@ The reasons are in short: Everything as an expression, everything as a value or 
 
 The English language has a larger vocabulary than other comparable European languages like French or German, maybe because English speakers have more fun to play around with foreign words and use them in their own language<span title="This is the short version of the reasoning in [The Mother Tongue](https://en.wikipedia.org/wiki/The_Mother_Tongue)"><sup><u>1</u></sup></span>. For me, learning English will never top because of words like these:   
 
-  * [Osssified](https://en.wiktionary.org/wiki/ossify) - to turn into bone (literally), to become rigid in habits or to grow formulaic
+  * [Ossified](https://en.wiktionary.org/wiki/ossify) - to turn into bone (literally), to become rigid in habits or to grow formulaic
   * [Paraphernalia](https://en.wiktionary.org/wiki/paraphernalia) - miscellaneous items you need to carry out a certain activity<span title="Digging deeper brings up an interesting root: In ancient greece paraphernalia were the things a woman brought into marriage, which unlike her dowry remained in her own possesion."><sup><u>2</u></sup></span>
   * [Apricity](http://www.merriam-webster.com/words-at-play/winter-words/apricity) - the warmth of the sun on a winter day
  
