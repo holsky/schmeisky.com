@@ -19,11 +19,9 @@ github_username:  holsky
 markdown: kramdown
 
 accounts:
-  - {name: FreeUniversity, url: "http://www.mi.fu-berlin.de/w/Main/HolgerSchmeisky", text: Freie Universität}
   - {name: GitHub, url: "https://github.com/holger-s", icon: fa-github}
   - {name: Twitter, url: "https://twitter.com/@hschmeisky", icon: fa-twitter}
   - {name: LinkedIn, url: "https://de.linkedin.com/in/hschmeisky", icon: fa-linkedin}
   - {name: Meetup, url: "http://www.meetup.com/members/127251772/", text: Meetup}
   - {name: Exercism, url: "http://exercism.io/holsky", text: Exercism}
-  - {name: Trello, url: "https://trello.com/holgerschmeisky", icon: fa-trello}
   - {name: ResearchGate, url: "https://www.researchgate.net/profile/Holger_Schmeisky", text: "ResearchGate"}
