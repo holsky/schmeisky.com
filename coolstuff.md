@@ -59,7 +59,9 @@ The English language has a larger vocabulary than other comparable European lang
 
   * [Ossified](https://en.wiktionary.org/wiki/ossify) - to turn into bone (literally), to become rigid in habits or to grow formulaic
   * [Paraphernalia](https://en.wiktionary.org/wiki/paraphernalia) - miscellaneous items you need to carry out a certain activity<span title="Digging deeper brings up an interesting root: In ancient greece paraphernalia were the things a woman brought into marriage, which unlike her dowry remained in her own possesion."><sup><u>2</u></sup></span>
+  * [Lacuna](https://www.merriam-webster.com/dictionary/lacuna) -  a blank space or a missing, part, for example in a story or book. Roots in the latin word 'lacus' for lake
   * [Apricity](http://www.merriam-webster.com/words-at-play/winter-words/apricity) - the warmth of the sun on a winter day
  
+
 
 Digging deeper on apricity brings to light this interesting history: According to Merriam-Webster the word brought into English by Henry Cockeram in 1623 when he recorded (or possibly invented it) for his dictionary. However, it never really made it out of the dictionary into general use and is probably exemplary for the fate of English words that come only from single authors and not from general speech.
