@@ -1,0 +1,12 @@
+# Carmack Haskell
+https://www.youtube.com/watch?v=Uooh0Y9fC_M
+  ⁃ Makes some things that are difficult in c (parallelism ) very easy
+  ⁃ Types Are a boon for maintain ability
+  ⁃ Explicit parameters are a boon for naintainability
+  ⁃ Hats the only thing he missed in lisp
+  ⁃ What if I had written quake c in scheme instead?
+  ⁃ If he were young he'd work in the functional team that slowly by increasingly large projects build up the expertise to build production software purely functional
+
+Getting we pep8
+Focusing on code formsttting guidelines is like the experiment with the gorilla - it prevents your brain from focus on in real improvements
+Write adapters for Java APIs 
