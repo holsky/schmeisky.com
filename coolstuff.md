@@ -35,25 +35,23 @@ The reasons are in short: Everything as an expression, everything as a value or 
 
 http://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html
 
-Smalltalk is one of those old languages that keep producing great ideas that everyone else copies (Object/Message-Oriented Programming, Virtual Machines, Images, Refactoring, Test-Driven Development, ...). I recently attended an interesting talk by [Nikolas Martens](http://rtens.org/) on it 
+Smalltalk is one of those old languages that keep producing great ideas that everyone else copies (Object/Message-Oriented Programming, Virtual Machines, Images, Refactoring, Test-Driven Development, ...). I recently attended an interesting talk by [Nikolas Martens](http://rtens.org/) on it. The *attitude* and design rationale of Smalltalk is captured well by these quotes from the above article:
 
-Instead of a bit-grinding processor raping and plundering data structures, we have a universe of well-behaved objects that courteously ask each other to carry out their various desires
+> Instead of a bit-grinding processor raping and plundering data structures, we have a universe of well-behaved objects that courteously ask each other to carry out their various desires.
 
-On manual memory management:
-an you imagine having to prepare someone for each thing you tell them or having to inform them when you are thro
+They have a very compelling reason, why a programming language should be designed for us programmers, not for the computer:
 
-Why objects are distinct
-The mind observes a vast universe of experience, both immediate and recorded. One can derive a sense of oneness with the universe simply by letting this experience be, just as it is. However, if one wishes to participate, literally to take a part, in the universe, one must draw distinctions. In so doing one identifies an object in the universe, and simultaneously all the rest becomes not-that-object
+> The mechanisms of human thought and communication have been engineered for millions of years, and we should respect them as being of sound design. Moreover, since we must work with this design for the next million years, it will save time if we make our computer models compatible with the mind, rather that the other way around. 
 
+And when it comes to the rationale for object orientation as a way to model the world it gets really philosophical:
 
-Why Design for humans:
+> The mind observes a vast universe of experience, both immediate and recorded. One can derive a sense of oneness with the universe simply by letting this experience be, just as it is. However, if one wishes to participate, literally to take a part, in the universe, one must draw distinctions. In so doing one identifies an object in the universe, and simultaneously all the rest becomes not-that-object
 
-The mechanisms of human thought and communication have been engineered for millions of years, and we should respect them as being of sound design. Moreover, since we must work with this design for the next million years, it will save time if we make our computer models compatible with the mind, rather that the other way around. 
+One major caveat for Smalltalk is often that it is suitable only for small projects. And yes, this is by design:
 
-Why it is for small projects:
+> Personal Mastery: If a system is to serve the creative spirit, it must be entirely comprehensible to a single individual.
 
-    Personal Mastery: If a system is to serve the creative spirit, it must be entirely comprehensible to a single individual.
-
+How awesome is it that there is a language with this kind of spirit? Practically speaking the talk by Nikolas Martens gave some very interesting benefits of using Smalltalk for modern development. Most impressive was, when he first created the call for a function that did not exist, called it, and only then, in debug mode, started writing it. TDD to the max.
 
 ## Lambda Calculus
 
@@ -81,15 +79,31 @@ I have a [blog post](/engineering/2016/11/22/SE-Radio1.html) summarizing some of
 
 An interesting side note I found in the [HN comments](https://news.ycombinator.com/item?id=14542938) on the different implenentations of very different complexity of `yes` . While the [Unix version](https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c) is as simple as you would expect, the [GNU version] rather complex, aligning memory pages and bypassing the standard library, to optimize for throughput. [One commenter](https://news.ycombinator.com/item?id=14543640) points out that quite often GNU programs look "odd", in order to avoid patent infringement concerns with UNIX. There is even a section in the (GNU coding standards)[https://www.gnu.org/prep/standards/standards.html#Reading-Non_002dFree-Code] to encourage this, e.g. by optimizing for speed instead of readability.
 
+## Nerves - embedded Elixir
+
+Elixir/Erlang is not something you usually associate with embedded system. Here is a framework that bridges the gap: 
+
+http://nerves-project.org/
+
+## Unsong
+
+I somehow found this online book that was published until May 2017 and has come to a (surprising) end. It is a very entertaining read, since it contains a lot of word-play and played with my conception how the world works. In principle it is a large pun, that assumes flipped roles for science and superstition/religion, a world where everything from religion is true, while scientific laws do not uphold anymore. For example in the chapter [War and Peace](http://unsongbook.com/interlude-%D7%97-war-and-peace/), scientific facts that we consider a given through evidence are instead interpreted in a theological fashion:
+
+```
+ When a scientist says “space is infinite and full of stars”, she does not literally mean that the crystal sphere surrounding the Earth doesn’t exist. She is metaphorically referring to the infinitude of the human spirit, the limitless possibilities it offers, and the brightness and enlightenment waiting to be discovered.
+```
+
+## NASA
+
+I am a huge fan of space and space exploration. [Spacepod](https://www.listentospacepod.com/) is a great podcast that brings you really close to what we do to explore space and brought to my attention some of the interesting stuff NASA does:
+
+  * [Bright Spots and Color Differences Revealed on Ceres](https://www.nasa.gov/feature/jpl/bright-spots-and-color-differences-revealed-on-ceres) with a nod to fans of The Expanse
+  * There is a [Planetary Defense Coordination Office](https://www.nasa.gov/planetarydefense/overview)
+  * And they have an [app](https://cneos.jpl.nasa.gov/nda/), where you can practice defending earth from an asteroid using nukes
+
 ## English Language
 
-The English language has a larger vocabulary than other comparable European languages like French or German, maybe because English speakers have more fun to play around with foreign words and use them in their own language<span title="This is the short version of the reasoning in [The Mother Tongue](https://en.wikipedia.org/wiki/The_Mother_Tongue)"><sup><u>1</u></sup></span>. For me, learning English will never top because of words like these:   
-
-  * [Ossified](https://en.wiktionary.org/wiki/ossify) - to turn into bone (literally), to become rigid in habits or to grow formulaic
-  * [Paraphernalia](https://en.wiktionary.org/wiki/paraphernalia) - miscellaneous items you need to carry out a certain activity<span title="Digging deeper brings up an interesting root: In ancient greece paraphernalia were the things a woman brought into marriage, which unlike her dowry remained in her own possesion."><sup><u>2</u></sup></span>
-  * [Lacuna](https://www.merriam-webster.com/dictionary/lacuna) -  a blank space or a missing, part, for example in a story or book. Roots in the latin word 'lacus' for lake
-  * [Apricity](http://www.merriam-webster.com/words-at-play/winter-words/apricity) - the warmth of the sun on a winter day
- 
+The English language has a larger vocabulary than other comparable European languages like French or German, maybe because English speakers have more fun to play around with foreign words and use them in their own language<span title="This is the short version of the reasoning in [The Mother Tongue](https://en.wikipedia.org/wiki/The_Mother_Tongue)"><sup><u>1</u></sup></span>. For me, learning English will never top because of words like these:    
 
 
 Digging deeper on apricity brings to light this interesting history: According to Merriam-Webster the word brought into English by Henry Cockeram in 1623 when he recorded (or possibly invented it) for his dictionary. However, it never really made it out of the dictionary into general use and is probably exemplary for the fate of English words that come only from single authors and not from general speech.
